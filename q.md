@@ -10,21 +10,34 @@
 
 ## NodeJS
 
-* What Node is
+* What Node is [?](https://nodejs.org/ru/about/)
 
-* Components of Node
+* Components of Node[.](https://medium.com/webbdev/js-9ca13173577b)
 
-* What 'Event Loop' is
+* What 'Event Loop' is [?](https://medium.com/devschacht/javascript-eventloop-explained-f2dcf84e36ee)
 
-* From where 'Event Loop' get starts
+* Micro & Macro tasks[.](https://javascript.info/event-loop)
 
-* Micro and macro tasks
+* From where 'Event Loop' get starts[?](https://learn.javascript.ru/event-loop)
 
-* Which async objects create micro and macro tasks (setTimeout, processNextTick, setImmediate)
+* Which async objects create micro and macro tasks
+```angular2html
+micro => (script, mousemove, setTimeout)
+macro => (promise)
+```
 
-* What setTimeout returns (timer identifier)
+* What setTimeout returns 
+```angular2html
+The setTimeout() returns a timeoutID which is a positive integer identifying the timer created as a result of calling the method.
+The timeoutID can be used to cancel timeout by passing it to the clearTimeout() method.
+```  
 
 * What clearTimeOut is
+```angular2html
+The clearTimeout() function in javascript clears the timeout which has been set by setTimeout()function before that.
+setTimeout() function takes two parameters. First a function to be executed and second after how much time (in ms).
+setTimeout() executes the passed function after given time.
+```
 
 * Parallelism | FS | Buffer | Stream in Node
 
